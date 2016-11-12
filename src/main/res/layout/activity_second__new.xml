@@ -2,9 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android: android:background="@color/background_green"
+    android:background="@color/background_green"
     android:orientation="vertical">
-
     <TextView android:id="@+id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -12,7 +11,8 @@
         android:layout_marginLeft="100dp"
         android:layout_marginTop="50dp"
         android:background="@color/box_green"
-        android:text="Match Name" />
+        android:text="Match Name"
+        android:textStyle="bold"/>
 
     <EditText
         android:layout_width="98dp"
@@ -33,38 +33,39 @@
         <TextView android:id="@+id/text2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:layout_marginLeft="25dp"
+            android:textSize="30dp"
+            android:layout_marginLeft="147dp"
             android:layout_marginTop="5dp"
             android:background="@color/box_grayBlue"
-            android: android:textColor="@color/text_brown"
-            android:text="Match Name" />
-        <TextView android:id="@+id/text3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:textSize="20dp"
-            android:layout_marginLeft="130dp"
-            android:layout_marginTop="5dp"
-            android:background="@color/box_grayBlue"
-            android:text="Round" />
-
+            android:textColor="@color/text_brown"
+            android:text="Games" />
 
     </LinearLayout>
 
-    <LinearLayout
-        android:orientation="horizontal"
+    <Button
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:id="@+id/button3"
+        android:text="@string/baseball"
+        android:onClick="sendMessage" />
 
-        <GridView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:numColumns="auto_fit"
-            android:verticalSpacing="10dp"
-            android:horizontalSpacing="10dp"
-            android:stretchMode="columnWidth"
-            android:gravity="center"/>
-    </LinearLayout>
+    <Button
+        android:text="Basketball"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4" />
+
+    <Button
+        android:text="Running"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button5" />
+
+    <Button
+        android:text="Dodge Ball"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button6" />
 
 
 </LinearLayout>
