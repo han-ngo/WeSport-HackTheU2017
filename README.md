@@ -4,6 +4,5 @@ An Android mobile game app with motion control to get fit and healthy. It contai
 
 ## Authors
 
-* **Benwei ** - *Back End*
-* **Mia Ngo ** - *Front End*
-
+* **Benwei** - *Back End* 
+* **Mia Ngo** - *Front End* 
